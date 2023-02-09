@@ -1,0 +1,27 @@
+.card {
+  display: flexbox;
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, .1);
+  border-radius: 5px;
+  height: 300px;
+  width: 200px;
+  margin: 0 0 15px 0;
+  padding: 20px;
+  box-shadow: 0 5px 35px rgba(0, 0, 0, .1);
+  text-align: center;
+}
+
+.card:hover {
+  box-shadow: 0 5px 25px rgba(0, 0, 0, .3);
+  transition: .2s;
+}
+
+.card img {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+
+.card h3 {
+  font-size: 16px;
+}
